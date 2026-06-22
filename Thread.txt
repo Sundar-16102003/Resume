@@ -1,0 +1,30 @@
+Thread
+------
+five states are there conceptually
+1.new state
+2.runnable state
+3.running state
+4.waiting state
+5.dead state
+new state
+--------
+when you create new thread using Thread t=new Thread();
+it is in new state.
+runnable state
+---------------
+when you start the thread it is in runnable state
+running state
+-------------
+when actually thread to work or execute mean cpu schedule the thread then only they start work
+waiting state
+------------------
+you wantedly put sleep or wait to hold the thread for some seconds or minutes
+notify
+--------
+you can woke up the thread sleeping in waiting you call notify to wake but  thread goes to runnable state
+then only go to running start actually cpu scheduling.
+dead state
+----------
+stop is used to make dead states
+runnabale to dead
+waiting to dead. 
